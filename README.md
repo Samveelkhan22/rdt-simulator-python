@@ -36,6 +36,8 @@ A Python-based simulation of a Reliable Data Transmission (RDT) layer over an un
 
 - Python 3.6 or later (no external dependencies)
 
+---
+
 ## Usage
 
 - Edit rdt_main.py to select which text bundle to send (short vs. longer sample).
@@ -50,6 +52,8 @@ python rdt_main.py
 - Press Enter each time you see Press enter to continue... to step through iterations.
 
 - Simulation will print per‐iteration debugging info and final RDT statistics.
+
+---
 
 ## Configuration
 
@@ -70,9 +74,13 @@ UnreliableChannel flags in rdt_main.py let you toggle:
 - packet delay
 - checksum errors
 
+---
+
 ## Example Output
 - Short text (“The quick brown fox…”) completes in 5 iterations with no errors.
 - Longer JFK Moon Speech sample runs ~200 iterations with full reliability.
+
+---
 
 ## Project Structure
 
